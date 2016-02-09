@@ -22,17 +22,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // bower:js
-      'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
-      'bower_components/angular-animate/angular-animate.js',
-      'bower_components/angular-resource/angular-resource.js',
-      'bower_components/angular-ui-router/release/angular-ui-router.js',
-      'bower_components/angular-strap/dist/angular-strap.js',
-      'bower_components/angular-strap/dist/angular-strap.tpl.js',
-      'bower_components/angular-cookies/angular-cookies.js',
-      'bower_components/angular-sanitize/angular-sanitize.js',
-      'bower_components/angular-base64/angular-base64.js',
-      'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
 	    'http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0',
