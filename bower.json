@@ -1,7 +1,7 @@
 {
 	"name": "copperford-angular-sandbox",
 	"description": "sandbox for learning purposes only",
-	"version": "0.1",
+	"version": "0.12",
 	"main": [
 		"dist/copperford-angular-sandbox.js",
 		"dist/copperford-angular-sandbox.css"
