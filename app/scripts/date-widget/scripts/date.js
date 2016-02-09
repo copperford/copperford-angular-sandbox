@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('cris-common-angular')
+angular.module('copperford-angular-sandbox')
 
 	.directive('show-date', function() {
 		return {
