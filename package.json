@@ -1,7 +1,7 @@
 {
   "name": "copperford-angular-sandbox",
-  "version": "0.1.3",
-	"description": "just a testing/learning sandbox, nothing to see here",
+  "version": "0.1.4",
+  "description": "just a testing/learning sandbox, nothing to see here",
   "dependencies": {},
   "repository": {},
   "devDependencies": {
