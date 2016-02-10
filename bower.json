@@ -1,13 +1,13 @@
 {
   "name": "copperford-angular-sandbox",
   "description": "sandbox for learning purposes only",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": [
     "dist/copperford-angular-sandbox.js",
     "dist/copperford-angular-sandbox.css"
   ],
   "devDependencies": {
-	"angular": "^1.3.0",
+    "angular": "^1.3.0",
     "angular-mocks": "^1.3.0"
   },
   "ignore": [
