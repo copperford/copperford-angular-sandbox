@@ -30,16 +30,16 @@ module.exports = function (gulp, $) {
 				'source/**/*.js',
 				'!**/*.spec.js'
 			])
-			.pipe($.concat('angular-ui-tree.js'))
+			.pipe($.concat('copperford-angular-sandbox.js'))
 			.pipe(gulp.dest('dist'));
 	});
 
 	gulp.task('uglify', ['concat'], function () {
-		return gulp.src('dist/angular-ui-tree.js')
+		return gulp.src('dist/copperford-angular-sandbox.js')
 			.pipe($.uglify({
 				preserveComments: 'some'
 			}))
-			.pipe($.rename('angular-ui-tree.min.js'))
+			.pipe($.rename('copperford-angular-sandbox.min.js'))
 			.pipe(gulp.dest('dist'));
 	});
 
